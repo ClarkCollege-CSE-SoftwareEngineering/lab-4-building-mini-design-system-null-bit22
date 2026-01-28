@@ -1,6 +1,6 @@
 # Lab 4: Building a Mini Design System
 
-## Week 4 | UI Design I**
+## Week 4 | UI Design I
 
 ## Overview
 
