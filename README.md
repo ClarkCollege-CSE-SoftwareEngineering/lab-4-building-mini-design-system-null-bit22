@@ -3,6 +3,30 @@
 
 ## Week 4 | UI Design I
 
+Patrick Neill - 2/2/26
+
+Lab 4 for the CSE 325 course at Clark College. Demonstrates modern UI design philosophies and breaking down components to an atomic level (atoms vs molecules vs organisms etc).
+
+## Reflection Questions
+
+**Question:** How does composing the Alert molecule from Icon, Text, and Button atoms demonstrate the value of atomic design?
+
+**Answer:** Icon, Text, and Button are all "atoms" in this module. Many atoms come together to form a molecule. This demonstrates the value of atomic design by showcasing how smaller components come together to form a larger one. Not only does this make UI design more modular, it also allows for extensive flexibility by being able to have multiple differnt atoms and combine them in different ways to make different kinds of molecules. 
+
+**Question:** What role do design tokens play in maintaining consistency across your components? 
+
+**Answer:** Design tokens allow atomic components to pull from a design template for different font families, colors, and other typography specifications. This gives your application a consistent style, and also allows you to easily redesign your font and color schemes later. 
+
+**Question:** If you needed to add a "dark mode" to this design system, what would you need to change? 
+
+**Answer:** To add a dark mode for the app, you could change the default colors of Button, Icon, Text, etc. to darker colors that are defined in `src/tokens/colors.ts`. You could also add a more variety of darker colors to colors.ts and use those instead for the UI components. 
+
+## Key Concepts
+
+This lab taught me how to organize and build different UI components while adhering to atomic design principles. I learned which UI components are considered atoms (buttons, text forms, labels, etc.) and how atoms come together to form a larger component/molecule (a submission form with a label and a button, nav bar, etc.). This lab also demonstrated how beneficial it is to think of a UI as an ecosystem of smaller modules/components, rather than thinking of a UI as a single page of hmtl elements with less flexibility. 
+
+# --- Lab Directions Below ---
+
 ## Overview
 
 In this lab, you'll build components for a mini design system using **atomic design principles** from Brad Frost's methodology. You'll experience how small, reusable pieces (atoms) combine to form more complex components (molecules)—the core insight of component-driven development.
